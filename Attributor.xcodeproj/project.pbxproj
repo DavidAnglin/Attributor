@@ -15,6 +15,7 @@
 		D7FD11441C91F36000581875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FD11421C91F36000581875 /* LaunchScreen.storyboard */; };
 		D7FD114F1C91F36000581875 /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FD114E1C91F36000581875 /* AttributorTests.m */; };
 		D7FD115A1C91F36000581875 /* AttributorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FD11591C91F36000581875 /* AttributorUITests.m */; };
+		D7FD116C1C922CE700581875 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FD116B1C922CE700581875 /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D7FD11551C91F36000581875 /* AttributorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FD11591C91F36000581875 /* AttributorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorUITests.m; sourceTree = "<group>"; };
 		D7FD115B1C91F36000581875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FD116A1C922CE700581875 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		D7FD116B1C922CE700581875 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				D7FD113D1C91F36000581875 /* Main.storyboard */,
+				D7FD116A1C922CE700581875 /* TextStatsViewController.h */,
+				D7FD116B1C922CE700581875 /* TextStatsViewController.m */,
 				D7FD11371C91F36000581875 /* AttributorAppDelegate.h */,
 				D7FD11381C91F36000581875 /* AttributorAppDelegate.m */,
 				D7FD113A1C91F36000581875 /* AttributorViewController.h */,
@@ -276,6 +281,7 @@
 				D7FD113C1C91F36000581875 /* AttributorViewController.m in Sources */,
 				D7FD11391C91F36000581875 /* AttributorAppDelegate.m in Sources */,
 				D7FD11361C91F36000581875 /* main.m in Sources */,
+				D7FD116C1C922CE700581875 /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
